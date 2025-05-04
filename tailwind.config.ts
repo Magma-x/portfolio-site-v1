@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,10 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom colors for our sarcastic theme
+				pitchBlack: "#0D0D0D",
+				neonMint: "#00FFB2",
+				loudRed: "#FF3C38",
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +89,39 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'wiggle': {
+					'0%, 100%': { transform: 'rotate(-3deg)' },
+					'50%': { transform: 'rotate(3deg)' }
+				},
+				'glow': {
+					'0%, 100%': { 
+						textShadow: '0 0 10px rgba(0, 255, 178, 0.7), 0 0 20px rgba(0, 255, 178, 0.5), 0 0 30px rgba(0, 255, 178, 0.3)'
+					},
+					'50%': { 
+						textShadow: '0 0 15px rgba(0, 255, 178, 0.9), 0 0 25px rgba(0, 255, 178, 0.7), 0 0 35px rgba(0, 255, 178, 0.5)'
+					}
+				},
+				'blink': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 4s ease-in-out infinite',
+				'wiggle': 'wiggle 1s ease-in-out infinite',
+				'glow': 'glow 2s ease-in-out infinite',
+				'blink': 'blink 1s step-end infinite'
+			},
+			fontFamily: {
+				'space': ['"Space Grotesk"', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif'],
 			}
 		}
 	},
