@@ -2,7 +2,7 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
-import { Code, Server, Tool, Zap, Brain } from 'lucide-react';
+import { Code, Server, Wrench, Zap, Brain } from 'lucide-react';
 
 interface Skill {
   name: string;
@@ -40,7 +40,7 @@ const Skills: React.FC = () => {
     },
     {
       title: "Tools & Stuff I Complain About But Still Use",
-      icon: <Tool className="h-6 w-6 text-neonMint" />,
+      icon: <Wrench className="h-6 w-6 text-neonMint" />,
       skills: [
         { name: "Git", description: "Where I push code and also my luck" },
         { name: "VS Code", description: "90% of my screen time. 10% is dark mode themes" },
