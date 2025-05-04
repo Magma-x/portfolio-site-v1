@@ -15,7 +15,7 @@ const About: React.FC = () => {
             <Card className="bg-muted border-neonMint/20 hover:border-neonMint transition-all duration-300">
               <CardContent className="p-6">
                 <p className="text-lg text-white/80 mb-4">
-                  Hi, I'm <span className="text-neonMint">Dev McSarcasm</span>. I'm a developer, pixel perfectionist, and master of sarcastic comments in code.
+                  Hi, I'm <span className="text-neonMint">Abu Huzefa aka Magma</span>. I'm a developer, pixel perfectionist, and master of sarcastic comments in code.
                 </p>
                 <p className="text-lg text-white/80 mb-4">
                   I've worked with startups, freelancers, and occasionally, people who know what they want. When I'm not pushing pixels, I'm pushing my luck with deadlines.

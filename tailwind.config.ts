@@ -109,6 +109,10 @@ export default {
 				'blink': {
 					'0%, 100%': { opacity: '1' },
 					'50%': { opacity: '0' }
+				},
+				'spin-slow': {
+					'0%': { transform: 'rotate(0deg)' },
+					'100%': { transform: 'rotate(360deg)' }
 				}
 			},
 			animation: {
@@ -117,7 +121,8 @@ export default {
 				'float': 'float 4s ease-in-out infinite',
 				'wiggle': 'wiggle 1s ease-in-out infinite',
 				'glow': 'glow 2s ease-in-out infinite',
-				'blink': 'blink 1s step-end infinite'
+				'blink': 'blink 1s step-end infinite',
+				'spin-slow': 'spin-slow 4s linear infinite'
 			},
 			fontFamily: {
 				'space': ['"Space Grotesk"', 'sans-serif'],
