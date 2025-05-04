@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
             }}
           >
             <span className="text-neonMint">&lt;</span>
-            Dev
+            Magma
             <span className="text-neonMint">/&gt;</span>
           </a>
         </div>
