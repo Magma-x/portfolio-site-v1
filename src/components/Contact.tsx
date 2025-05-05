@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
         </Card>
 
         <div className="mt-20 text-white/30 text-sm">
-          <p>© {new Date().getFullYear()} Dev McSarcasm. All wrongs reserved.</p>
+          <p>© Magma. All wrongs reserved.</p>
           <p className="mt-2">Built with a strong dose of irony and too much free time.</p>
         </div>
       </div>
