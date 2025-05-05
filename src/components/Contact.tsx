@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, X } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [buttonText, setButtonText] = useState("Let's Waste Time Together");
@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
                 className="text-white hover:text-neonMint transition-colors group"
               >
                 <div className="flex flex-col items-center gap-2">
-                  <Twitter size={28} className="group-hover:animate-wiggle" />
+                  <X size={28} className="group-hover:animate-wiggle" />
                   <span className="text-xs text-white/70 group-hover:text-neonMint">Where I pretend to be insightful</span>
                 </div>
               </a>
