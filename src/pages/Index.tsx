@@ -6,8 +6,8 @@ import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import About from '@/components/About';
 import Testimonials from '@/components/Testimonials';
-import Contact from '@/components/Contact';
 import GptConfessionBox from '@/components/GptConfessionBox';
+import Contact from '@/components/Contact';
 
 const Index: React.FC = () => {
   // Easter egg: console message
@@ -113,8 +113,8 @@ const Index: React.FC = () => {
         <Projects />
         <About />
         <Testimonials />
-        <Contact />
         <GptConfessionBox />
+        <Contact />
       </main>
       
       {/* Cursor trailer effect (subtle glow that follows cursor) */}
