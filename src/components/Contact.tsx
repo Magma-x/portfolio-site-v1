@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
 
         <Card className="bg-muted border-neonMint/20 hover:border-neonMint transition-all duration-300 max-w-2xl mx-auto">
           <CardContent className="p-8 flex flex-col items-center">
-            <a href="mailto:your.email@example.com">
+            <a href="mailto:abuhuzefa733@gmail.com">
               <Button 
                 size="lg"
                 className="bg-neonMint text-pitchBlack hover:bg-loudRed hover:text-white transition-all duration-300 text-lg px-8 py-6 rounded-md font-medium"
