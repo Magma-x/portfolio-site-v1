@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Instagram } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [buttonText, setButtonText] = useState("Let's Waste Time Together");
@@ -66,14 +66,14 @@ const Contact: React.FC = () => {
               </a>
               
               <a 
-                href="https://linkedin.com" 
+                href="https://instagram.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white hover:text-neonMint transition-colors group"
               >
                 <div className="flex flex-col items-center gap-2">
-                  <Linkedin size={28} className="group-hover:animate-wiggle" />
-                  <span className="text-xs text-white/70 group-hover:text-neonMint">For when you want to look serious</span>
+                  <Instagram size={28} className="group-hover:animate-wiggle" />
+                  <span className="text-xs text-white/70 group-hover:text-neonMint">Where I post code screenshots</span>
                 </div>
               </a>
             </div>
