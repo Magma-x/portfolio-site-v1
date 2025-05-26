@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -24,14 +25,14 @@ const Contact: React.FC = () => {
             </a>
 
             <div className="flex justify-center gap-6 mt-10">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-neonMint transition-colors group">
+              <a href="https://github.com/Magma-x" target="_blank" rel="noopener noreferrer" className="text-white hover:text-neonMint transition-colors group">
                 <div className="flex flex-col items-center gap-2">
                   <Github size={28} className="group-hover:animate-wiggle" />
                   <span className="text-xs text-white/70 group-hover:text-neonMint">Where my bugs live</span>
                 </div>
               </a>
               
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-neonMint transition-colors group">
+              <a href="https://x.com/abuhuzefa_" target="_blank" rel="noopener noreferrer" className="text-white hover:text-neonMint transition-colors group">
                 <div className="flex flex-col items-center gap-2">
                   <svg width="28" height="28" viewBox="0 0 24 24" className="group-hover:animate-wiggle" fill="currentColor">
                     <path d="M16.99 0H20.298L13.071 8.26L21.573 19.5H14.916L9.702 12.883L3.736 19.5H0.426L8.156 10.665L0 0H6.826L11.539 6.022L16.99 0ZM15.829 17.52H17.662L5.83 1.876H3.863L15.829 17.52Z" />
@@ -40,7 +41,7 @@ const Contact: React.FC = () => {
                 </div>
               </a>
               
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-neonMint transition-colors group">
+              <a href="https://www.instagram.com/magma.xyz/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-neonMint transition-colors group">
                 <div className="flex flex-col items-center gap-2">
                   <Instagram size={28} className="group-hover:animate-wiggle" />
                   <span className="text-xs text-white/70 group-hover:text-neonMint text-justify">Where I lose time and find memes</span>
