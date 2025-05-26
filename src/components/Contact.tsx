@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
               >
                 <div className="flex flex-col items-center gap-2">
                   <Instagram size={28} className="group-hover:animate-wiggle" />
-                  <span className="text-xs text-white/70 group-hover:text-neonMint">Where I post code screenshots</span>
+                  <span className="text-xs text-white/70 group-hover:text-neonMint">Where I lose time and find memes.</span>
                 </div>
               </a>
             </div>
