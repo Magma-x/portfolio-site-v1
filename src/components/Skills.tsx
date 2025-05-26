@@ -157,7 +157,7 @@ const Skills: React.FC = () => {
               </div>
               <h3 className="text-lg font-medium text-loudRed">Learning Now (Prepare for Sarcastic Intelligence)</h3>
             </div>
-            <blockquote className="border-l-2 border-loudRed pl-4 italic text-white/80 group-hover:translate-x-1 transition-all duration-500">Currently learning Machine Learning — because why not build the next Skynet after binge-watching three YouTube tutorials?</blockquote>
+            <blockquote className="border-l-2 border-loudRed pl-4 italic text-white/80 group-hover:translate-x-1 transition-all duration-500">Currently learning AI & Machine Learning — because why not build the next Skynet after binge-watching three YouTube tutorials?</blockquote>
           </CardContent>
         </Card>
 
